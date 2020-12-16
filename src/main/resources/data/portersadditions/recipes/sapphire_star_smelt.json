@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "portersadditions:spiral_cube"
+  },
+  "result": "portersadditions:sapphire_star",
+  "experience": 1.0,
+  "cookingtime": 80
+}

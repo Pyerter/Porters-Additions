@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "item": "portersadditions:spiral_cube"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    }
+  ],
+  "result":
+  {
+    "item": "portersadditions:sapphire_star",
+    "count": 6
+  }
+}

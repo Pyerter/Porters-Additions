@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "portersadditions:sapphire_star_base"
+  },
+  "result": "portersadditions:sapphire_star",
+  "experience": 1.0,
+  "cookingtime": 100
+}

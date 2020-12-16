@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "lxl",
+    "xnx",
+    "lxl"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "portersadditions:sapphire_star"
+    },
+    "n":
+    {
+      "item": "minecraft:netherite_block"
+    },
+    "l":
+    {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "result":
+  {
+    "item": "portersadditions:spiral_cube",
+    "count": 1
+  }
+}

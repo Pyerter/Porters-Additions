@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "portersadditions:sapphire_dust"
+    }
+  ],
+  "result":
+  {
+    "item": "portersadditions:sapphire_star_base",
+    "count": 1
+  }
+}
