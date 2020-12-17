@@ -6,6 +6,9 @@ import pyertersmods.portersadditions.util.RegistryHandler;
 
 import java.util.function.Supplier;
 
+/*
+ * This class holds tiers of items for weapons.
+ */
 public enum ModItemTier implements IItemTier {
 
     SAPPHIRE_STAR(4, 3000, 12.0f, 5.0f, 25, () -> Ingredient.fromItems(RegistryHandler.SAPPHIRE_SWORD.get()));
