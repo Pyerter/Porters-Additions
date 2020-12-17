@@ -11,6 +11,7 @@ import pyertersmods.portersadditions.blocks.SapphireDustOre;
 import pyertersmods.portersadditions.blocks.SapphireDustOreItem;
 import pyertersmods.portersadditions.blocks.SpiralCubeItem;
 import pyertersmods.portersadditions.blocks.SpiralCube;
+import pyertersmods.portersadditions.items.CelestialStaffFocus;
 import pyertersmods.portersadditions.items.ItemBase;
 import pyertersmods.portersadditions.tools.ModItemTier;
 
@@ -29,14 +30,18 @@ public class RegistryHandler {
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 
-    // Items
+    // Items - - - - -
     public static final RegistryObject<Item> SAPPHIRE_STAR = ITEMS.register("sapphire_star", ItemBase::new);
 
     public static final RegistryObject<Item> SAPPHIRE_STAR_BASE = ITEMS.register("sapphire_star_base", ItemBase::new);
 
     public static final RegistryObject<Item> SAPPHIRE_DUST = ITEMS.register("sapphire_dust", ItemBase::new);
+    // Items - - - - -
 
-    // Tools
+    // Tools - - - - -
+    public static final RegistryObject<Item> CELESTIAL_FOCUS_STAFF_SAPPHIRE = ITEMS.register("celestial_focus_staff_sapphire", () -> new CelestialStaffFocus(ModItemTier.SAPPHIRE_STAR));
+
+      // Basic Tools
     public static final RegistryObject<SwordItem> SAPPHIRE_SWORD = ITEMS.register("sapphire_star_sword", () ->
         new SwordItem(ModItemTier.SAPPHIRE_STAR, 4, -2.0f, new Item.Properties().group(PortersAdditions.TAB)));
 
@@ -51,15 +56,19 @@ public class RegistryHandler {
 
     public static final RegistryObject<HoeItem> SAPPHIRE_HOE = ITEMS.register("sapphire_star_hoe", () ->
             new HoeItem(ModItemTier.SAPPHIRE_STAR, -2, -1.0f, new Item.Properties().group(PortersAdditions.TAB)));
+    // Tools - - - - -
 
-    // Blocks
+    // Blocks - - - - -
     public static final RegistryObject<Block> SPIRAL_CUBE = BLOCKS.register("spiral_cube", SpiralCube::new);
 
     public static final RegistryObject<Block> SAPPHIRE_DUST_ORE = BLOCKS.register("sapphire_dust_ore", SapphireDustOre::new);
+    // Blocks - - - - -
 
-    // Block Items
+
+    // Block Items - - - - -
     public static final RegistryObject<Item> SPIRAL_CUBE_ITEM = ITEMS.register("spiral_cube", () -> new SpiralCubeItem(SPIRAL_CUBE.get()));
 
     public static final RegistryObject<Item> SAPPHIRE_DUST_ORE_ITEM = ITEMS.register("sapphire_dust_ore", () -> new SapphireDustOreItem(SAPPHIRE_DUST_ORE.get()));
+    // Block Items - - - - -
 
 }
