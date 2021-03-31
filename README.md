@@ -1,4 +1,4 @@
-#Minecraft Mod - Porter's Additions - WIP
+# Minecraft Mod - Porter's Additions - WIP
 
 This project is my first attempt at creating a Minecraft mod.
 
